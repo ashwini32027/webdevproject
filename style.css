@@ -1,0 +1,264 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main
+{
+width: 100%;
+height: 100%;
+background-color:#fff;
+}
+#navbar
+{
+    height: 70px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content:flex-end ;
+    gap: 30px;
+    padding: 0 30px;
+    /*padding jantae ha sukhud ne lagta ha khud b khud apne andar*/
+    
+}
+#navbar h4
+{
+    font-size: 1.4vw;
+    font-weight: 500;
+    font-family: monospace;
+}
+#navbar i
+{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 50%;
+    font-weight: 500;
+}
+#center
+{
+    /* width: fit-content; */
+    width: 100%;
+    height: 40%;
+    /* background-color: rebeccapurple; */
+    padding: 40px 80px;
+}
+#center h1{
+    font-size: 4.8vw;
+    font-weight:500 ;
+    line-height:5vw;
+}
+#centerin
+{
+    height: 200px;
+    /* background-color: red; */
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#centerin p
+{
+    font-size: 1.4vw;
+    font-weight: 500;
+    line-height: 1.9vw;
+}
+.right
+{
+    width: 20%;
+}
+.elem
+{
+    /* background-color: #f223f2; */
+    padding: 15px 0px;
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.elem i
+{
+    font-weight: 25px;
+    font-weight: 500;
+    border-color: #000;
+    opacity: 0;
+}
+.elem a
+{
+    color: #000;
+    text-decoration: none;
+    font-weight: 550;
+    font-size: 18px;
+}
+.elem:hover i
+{
+    opacity: 1;
+    border-color: rebeccapurple;
+}
+.elem:hover a
+{
+    text-decoration: underline;
+}
+.elem:hover
+{
+    background-color: #e6dddd;
+}
+
+
+#bottom
+{
+height: 100%;   
+ width: 100%;
+  
+}
+.love
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 30%;   
+    width: 100%;
+    margin-top: -70px;
+}
+@media (max-width:700px) {
+    #navbar
+{
+    height: 70px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content:flex-end ;
+
+    gap: 20px;
+    padding: 0 20px;
+    /*padding jantae ha sukhud ne lagta ha khud b khud apne andar*/
+    
+}
+#navbar h4
+{
+    font-size: 4.6vw;
+    font-weight: 500;
+    font-family: monospace;
+}
+#navbar i
+{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 50%;
+    font-weight: 500;
+}
+#center
+{
+    /* width: fit-content; */
+    width: 100%;
+    height: 100%;
+    /* background-color: rebeccapurple; */
+    padding: 1px 20px;
+}
+#center h1{
+    font-size: 11.8vw;
+    font-weight:500 ;
+    line-height:12.4vw;
+}
+
+#centerin
+{
+    height: 200px;
+    /* background-color: red; */
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+#centerin p
+{
+    font-size: 4.4vw;
+    font-weight: 500;
+    line-height: 5.2vw;
+}
+
+.right
+{
+    margin-top: 15px;
+    width: 100%;
+}
+.elem
+{
+    /* margin-top: ; */
+    /* background-color: #f223f2; */
+    padding: 20px 0px;
+    border-top: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: start;
+
+
+}
+.elem i
+{
+    font-weight: 25px;
+    font-weight: 500;
+    border-color: #000;
+    opacity: 0;
+}
+.elem a
+{
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 550;
+    font-size:17px;
+}
+.elem:hover i
+{
+    opacity: 1;
+    border-color: rebeccapurple;
+}
+.elem:hover a
+{
+    text-decoration: underline;
+}
+.elem:hover
+{
+    background-color: #e6dddd;
+}
+
+#bottom
+{
+height: 10%;   
+ width: 10%;
+  
+}
+.logo
+{
+ width: 100vw;  
+ height: 100%; 
+}
+.love
+{
+    margin-top: 15%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 0px;
+background-position: 0 100%;
+}
+}
+
+
+
+
+
